@@ -3,9 +3,8 @@
 #include <cmath>
 using namespace std;
 //paso por valor
-int A(int a){
+void A(int a){
     a=50;
-    return 0;
 }
 //paso por referencia
 void B(int &b){
