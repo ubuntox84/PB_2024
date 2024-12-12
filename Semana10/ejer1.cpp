@@ -7,11 +7,12 @@ class perro{
     int edad;
     string raza;
     public:
+    /*
     perro(string n, int e, string r){
         this->nombre=n;
         this->edad=e;
         this->raza=r;
-    }
+    }*/
     perro(string n, int e, string r):nombre(n),edad(e),raza(r){}
     void setnombre(string n){
         this->nombre=n;
